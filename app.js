@@ -7,7 +7,7 @@ const serviceAccount = "madden20-b6290-firebase-adminsdk-3i9r6-592c0049e8.json";
 
 
 
-databaseURL: https://madden20-b6290.firebaseio.com/
+databaseURL: "https://madden20-b6290.firebaseio.com/"
 
 
 app.set('port', (process.env.PORT || 3001));
