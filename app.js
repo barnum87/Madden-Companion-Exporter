@@ -11,8 +11,8 @@ const app = express();
 // admin.initializeApp({
 //   credential: admin.credential.cert(serviceAccount),
 //   databaseURL: "https://<DATABASE_NAME>.firebaseio.com/"
-// }); https://madden-1e6a6.firebaseio.com/
-https://madden-1e6a6.firebaseio.com/
+// }); 
+databaseurl: https://madden-1e6a6.firebaseio.com/
 
 app.set('port', (process.env.PORT || 3001));
 
