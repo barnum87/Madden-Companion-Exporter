@@ -3,15 +3,12 @@ const admin = require('firebase-admin');
 
 const app = express();
 
-// TODO: Enter the path to your service account json file
-// Need help with this step go here: https://firebase.google.com/docs/admin/setup
-// const serviceAccount = "madden20-b6290-firebase-adminsdk-3i9r6-592c0049e8.json";
+const serviceAccount = "madden20-b6290-firebase-adminsdk-3i9r6-592c0049e8.json";
 
-// TODO: Enter your database url from firebase
-// admin.initializeApp({
-//   credential: admin.credential.cert(serviceAccount),
-//   databaseURL: https://madden20-b6290.firebaseio.com/
-// });
+
+
+databaseURL: https://madden20-b6290.firebaseio.com/
+
 
 app.set('port', (process.env.PORT || 3001));
 
