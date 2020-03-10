@@ -10,7 +10,7 @@ const app = express();
 // TODO: Enter your database url from firebase
 // admin.initializeApp({
 //   credential: admin.credential.cert(serviceAccount),
-//   databaseURL: "https://<DATABASE_NAME>.firebaseio.com/"
+//   databaseURL: https://madden20-b6290.firebaseio.com/
 // });
 
 app.set('port', (process.env.PORT || 3001));
